@@ -1,0 +1,28 @@
+#cm_to_inches
+
+test_in = [0, -5.08, 3, 6, 25, 2540 ]
+test_out = [0, -2, 2.3622, 9.84252, 1000]
+
+NOTE: if you want to be fancy and put in multiple tests, you can enter them like this (this is true for all three functions):
+
+# can_go
+
+test_in = [[True, True, True], [True, False, True], [False, False, False], [False, False, True]]
+test_out = [False, False, True, False]
+
+For multiple tests use nested lists (hooray!):
+
+#bio_to_age
+
+test_in = “Leonard, Kathryn, (1970-)”
+test_out = Kathryn Leonard, 48
+
+test_in = “Choudhry, Zahir, (1856-)”
+test_out = Zahir Choudhry, 165
+
+test_in = “Harvey, Steve, (1957-)”
+test_out = Steve Harvey, 64
+
+test_in = “Hawking, Stephen (1942-2018)”
+test_out = Stephen Hawking, 78
+
